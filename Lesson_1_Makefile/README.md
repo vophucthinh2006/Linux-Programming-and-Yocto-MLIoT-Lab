@@ -13,13 +13,13 @@ As a C programming project grows, organizing source code into reusable modules b
 * `strutils.h`: Defines the functions provided by the library:
   * `str_reverse`: Reverses a string in-place.
   * `str_trim`: Removes leading and trailing whitespace from a string.
-  * `str_to_int`: Safely converts a string to an integer[cite: 1].
-* `strutils.c`: Source code implementing the functions defined in `strutils.h`[cite: 1].
-* `main.c`: Main program used to test the functions in the `strutils` library[cite: 1].
+  * `str_to_int`: Safely converts a string to an integer.
+* `strutils.c`: Source code implementing the functions defined in `strutils.h`.
+* `main.c`: Main program used to test the functions in the `strutils` library.
 
 ### Packaging the Library
-* **Create a Static Library (`libstrutils.a`)**[cite: 1]
-* **Create a Shared Library (`libstrutils.so`)**[cite: 1]
+* **Create a Static Library (`libstrutils.a`)**
+* **Create a Shared Library (`libstrutils.so`)**
 
 ### Using the Library
 Write a main program to test the functions in the `strutils` library[cite: 1], then compile and link:
@@ -38,9 +38,9 @@ gcc main.c -L. -lstrutils -o main_shared
 
 ## 2. Automation with Makefile
 
-Create a file named `Makefile` to automate the build process[cite: 1]. You can use the following standard targets:
+Create a file named `Makefile` to automate the build process. You can use the following standard targets:
 
-* `all`: The default target, which builds both `main_static` and `main_shared` versions[cite: 1].
-* `static`: Builds only the static library (`libstrutils.a`) and the static executable (`main_static`)[cite: 1].
-* `shared`: Builds only the shared library (`libstrutils.so`) and the shared executable (`main_shared`)[cite: 1].
-* `clean`: Removes all temporary and compiled files generated during the build process (`.o`, `.a`, `.so`, and executables)[cite: 1].
+* `all`: The default target, which builds both `main_static` and `main_shared` versions.
+* `static`: Builds only the static library (`libstrutils.a`) and the static executable (`main_static`).
+* `shared`: Builds only the shared library (`libstrutils.so`) and the shared executable (`main_shared`).
+* `clean`: Removes all temporary and compiled files generated during the build process (`.o`, `.a`, `.so`, and executables).

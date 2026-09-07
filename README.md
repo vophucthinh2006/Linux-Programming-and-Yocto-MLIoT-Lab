@@ -13,11 +13,11 @@ For detailed theoretical notes, concepts, and course documentation, refer to the
 ## Course Structure & Contents
 
 ### Part 1: System Programming & IPC (Sessions 1 - 10)
-* **Makefile & Filesystem:** Automated build workflows, static/shared library compilation, and file metadata inspection (`filestat` using `stat`/`lstat`)[cite: 1, 2].
-* **Process Management:** Process lifecycles, `fork()`, `wait()`, executable replacement (`exec()`), and special process states (Zombie and Orphan)[cite: 3].
-* **Multithreading (pthreads):** Thread creation/joining, race conditions, Mutexes, Condition Variables (Producer-Consumer model), and Read-Write Locks[cite: 4].
+* **Makefile & Filesystem:** Automated build workflows, static/shared library compilation, and file metadata inspection (`filestat` using `stat`/`lstat`).
+* **Process Management:** Process lifecycles, `fork()`, `wait()`, executable replacement (`exec()`), and special process states (Zombie and Orphan).
+* **Multithreading (pthreads):** Thread creation/joining, race conditions, Mutexes, Condition Variables (Producer-Consumer model), and Read-Write Locks.
 * **Inter-Process Communication (IPC):** 
-  * Signals (`SIGINT`, `SIGALRM`, `SIGUSR1`, and concurrent I/O with `select`/`poll`)[cite: 5].
+  * Signals (`SIGINT`, `SIGALRM`, `SIGUSR1`, and concurrent I/O with `select`/`poll`).
   * Sockets, Message Queues, Pipes & FIFO, Shared Memory, and Semaphores.
 
 ### Part 2: Yocto Project & Embedded Systems (Sessions 11 - 14)
