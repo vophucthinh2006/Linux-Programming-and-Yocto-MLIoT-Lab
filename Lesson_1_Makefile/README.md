@@ -25,12 +25,12 @@ As a C programming project grows, organizing source code into reusable modules b
 Write a main program to test the functions in the `strutils` library[cite: 1], then compile and link:
 
 * **With Static Library:**
-  ```bash
+```bash
   gcc main.c -L. -lstrutils -o main_static
 ```
 
 * **With Shared Library:**
-  ```bash
+```bash
 gcc main.c -L. -lstrutils -o main_shared
 ```
 
