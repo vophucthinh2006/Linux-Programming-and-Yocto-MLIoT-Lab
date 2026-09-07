@@ -6,7 +6,7 @@ A comprehensive collection of source code, lab exercises, and project notes cove
 
 This repository contains the complete implementation and study materials for the **MLIoT - Linux Programming and Yocto** course. The curriculum bridges high-level user-space applications with low-level kernel development and custom embedded Linux operating system generation. 
 
-For detailed theoretical notes, concepts, and course documentation, refer to the official [MLIoT - Linux Programming and Yocto (Notion Course Notes)](#[https://app.notion.com/p/3d369cf6c466803a912de67bb8ecf6da?v=3d369cf6c46680c4a090000c6c995a8f]).
+For detailed theoretical notes, concepts, and course documentation, refer to the official [MLIoT - Linux Programming and Yocto (Notion Course Notes)](https://app.notion.com/p/3d369cf6c466803a912de67bb8ecf6da?v=3d369cf6c46680c4a090000c6c995a8f).
 
 ---
 
